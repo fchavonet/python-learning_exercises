@@ -69,37 +69,45 @@ def generate_random_arithmetic_question():
         return False
 
 
-# Print initial instructions for the game.
-print(f"\n{YELLOW}Try to solve as many arithmetic questions as you can out of {NB_QUESTIONS} total.{RESET}\n")
+def main():
+    """
+    Main function that runs the arithmetic quiz game.
+    """
+    # Print initial instructions.
+    print(f"\n{YELLOW}Try to solve as many arithmetic questions as you can out of {NB_QUESTIONS} total.{RESET}\n")
 
-nb_points = 0
+    nb_points = 0
 
-# Main game loop.
-for i in range(0, NB_QUESTIONS):
+    # Main game loop.
+    for i in range(0, NB_QUESTIONS):
 
-    print(f"Question {YELLOW}{i + 1}{RESET} on {YELLOW}{NB_QUESTIONS}{RESET}:")
-    if generate_random_arithmetic_question():
-        print(f"{GREEN}Good answer!{RESET}\n")
-        nb_points += 1
+        print(f"Question {YELLOW}{i + 1}{RESET} on {YELLOW}{NB_QUESTIONS}{RESET}:")
+        if generate_random_arithmetic_question():
+            print(f"{GREEN}Good answer!{RESET}\n")
+            nb_points += 1
+        else:
+            print(f"{MAGENTA}Wrong answer!{RESET}\n")
+
+    # Calculate average and percentage.
+    average = int(NB_QUESTIONS/2)
+    percentage = int((nb_points / NB_QUESTIONS) * 100)
+
+    # Print final results.
+    print(f"Your score is {nb_points} out of {NB_QUESTIONS} ({percentage}%).")
+
+    # Provide feedback based on performance.
+    if nb_points == NB_QUESTIONS:
+        print(f"{BLUE}Perfect!{RESET}\n")
+    elif nb_points > average:
+        print(f"{BLUE}Good level!{RESET}\n")
+    elif nb_points == 0:
+        print(f"{BLUE}You need to brush up on your maths...{RESET}\n")
     else:
-        print(f"{MAGENTA}Wrong answer!{RESET}\n")
+        print(f"{BLUE}You can do better.{RESET}\n")
 
-# Calculate average and percentage.
-average = int(NB_QUESTIONS/2)
-percentage = int((nb_points / NB_QUESTIONS) * 100)
+    # Thank the player for playing.
+    print(f"{YELLOW}Thanks for playing!{RESET}\n")
 
-# Print final results.
-print(f"Your score is {nb_points} out of {NB_QUESTIONS} ({percentage}%).")
 
-# Provide feedback based on performance.
-if nb_points == NB_QUESTIONS:
-    print(f"{BLUE}Perfect!{RESET}\n")
-elif nb_points > average:
-    print(f"{BLUE}Good level!{RESET}\n")
-elif nb_points == 0:
-    print(f"{BLUE}You need to brush up on your maths...{RESET}\n")
-else:
-    print(f"{BLUE}You can do better.{RESET}\n")
-
-# Thank the player for playing.
-print(f"{YELLOW}Thanks for playing!{RESET}\n")
+if __name__ == "__main__":
+    main()
