@@ -27,7 +27,7 @@ def get_valid_amount():
             return amount
 
         except ValueError:
-            print(f"{RED}Error: please enter a valid amount.{RESET}")
+            print(f"{RED}ERROR: please enter a valid amount.{RESET}")
 
 
 def get_valid_currency(message):
@@ -50,10 +50,10 @@ def get_valid_currency(message):
             if "rates" in data:
                 return currency
             else:
-                print(f"{RED}Error: please enter a valid currency.{RESET}")
+                print(f"{RED}ERROR: please enter a valid currency.{RESET}")
 
         except Exception as e:
-            print(f"{RED}Error: please enter a valid currency.{RESET}")
+            print(f"{RED}ERROR: please enter a valid currency.{RESET}")
 
 
 def convert_currency(amount, base_currency, target_currency):
