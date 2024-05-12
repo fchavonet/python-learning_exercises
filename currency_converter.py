@@ -80,7 +80,8 @@ def convert_currency(amount, base_currency, target_currency):
     except Exception:
         print(f"{RED}a tapper !{RESET}")
         return None
-    
+
+
 def print_top_currencies():
     """
     Print a list of top 5 currencies along with their currency codes.
