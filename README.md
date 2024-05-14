@@ -37,14 +37,15 @@ Even though these exercises may seem relatively simple, I always strive to appro
 
 ## 📂 <span id="files-description">Files description</span>
 
-| FILE                    | DESCRIPTION                                                  |
-| :---------------------: | ------------------------------------------------------------ |
-| `resources`             | Contains the resources required for the repository.          |
-| `README.md`             | The readme file you are currently reading ;).                |
-| `currency_converter.py` | Python script for currency conversion using an API.          |
-| `egg_cooking_timer.py`  | Python script for a simple egg cooking timer.                |
-| `mental_arithmetic.py`  | Python script for a mental arithmetic quiz game.             |
-| `mystery_number.py`     | Python script for a number guessing game.                    |
+| FILE                    | DESCRIPTION                                                           |
+| :---------------------: | --------------------------------------------------------------------- |
+| `resources`             | Contains the resources required for the repository.                   |
+| `README.md`             | The readme file you are currently reading ;).                         |
+| `currency_converter.py` | Python script for currency conversion using an API.                   |
+| `egg_cooking_timer.py`  | Python script for a simple egg cooking timer.                         |
+| `mental_arithmetic.py`  | Python script for a mental arithmetic quiz game.                      |
+| `mystery_number.py`     | Python script for a number guessing game.                             |
+| `simon.py`              | Python script for a digital version of the Simon game, using numbers. |
 
 ## 💻 <span id="installation">Installation</span>
 
@@ -73,6 +74,10 @@ git clone https://github.com/fchavonet/web-simple_reminder.git
 
  ```
  ./mystery_number.py
+ ```
+
+  ```
+ ./simon.py
  ```
 
 ## 🔧 <span id="whats-next">What's next ?</span>
