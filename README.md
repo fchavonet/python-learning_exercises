@@ -63,7 +63,7 @@ git clone https://github.com/fchavonet/web-simple_reminder.git
 3. To test a program, run one of these commands:
 
 | SCREENSHOT                                                                       | COMMAND                   |
-| :------------------------------------------------------------------------------: | ------------------------- |
+| :------------------------------------------------------------------------------: | :-----------------------: |
 | <img height="100px" src="./resources/images/screenshots/connect_four.jpg">       | `./connect_four.py`       |
 | <img height="100px" src="./resources/images/screenshots/currency_converter.jpg"> | `./currency_converter.py` |  
 | <img height="100px" src="./resources/images/screenshots/egg_cooking_timer.jpg">  | `./egg_cooking_timer.py`  |  
