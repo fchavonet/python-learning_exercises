@@ -59,9 +59,13 @@ Even though these exercises may seem relatively simple, I always strive to appro
 git clone https://github.com/fchavonet/web-simple_reminder.git
 ```
 
-2. Open the repository you've just cloned.
+2. Python dependencies required:
+    - pytube (<a target="_blank" href="https://pytube.io/en/latest/user/install.html">documentation</a>).
+    - requests (<a target="_blank" href="https://pypi.org/project/requests/">documentation</a>)
 
-3. To test a program, run one of these commands:
+3. Open the repository you've just cloned.
+
+4. To test a program, run one of these commands:
 
 | SCREENSHOT                                                                             | COMMAND                         |
 | :------------------------------------------------------------------------------------: | :-----------------------------: |
@@ -71,7 +75,7 @@ git clone https://github.com/fchavonet/web-simple_reminder.git
 | <img height="100px" src="./resources/images/screenshots/mental_arithmetic.jpg">        | `./mental_arithmetic.py`        |  
 | <img height="100px" src="./resources/images/screenshots/mystery_number.jpg">           | `./mystery_number.py`           |    
 | <img height="100px" src="./resources/images/screenshots/simon.jpg">                    | `./simon.py`                    |
-| <img width="250px" src="./resources/images/screenshots/youtube_video_downloader.jpg"> | `./youtube_video_downloader.py` |
+| <img width="250px" src="./resources/images/screenshots/youtube_video_downloader.jpg">  | `./youtube_video_downloader.py` |
 
 ## 🔧 <span id="whats-next">What's next ?</span>
 
