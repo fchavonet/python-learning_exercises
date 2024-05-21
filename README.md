@@ -37,16 +37,17 @@ Even though these exercises may seem relatively simple, I always strive to appro
 
 ## 📂 <span id="files-description">Files description</span>
 
-| FILE                    | DESCRIPTION                                                           |
-| :---------------------: | --------------------------------------------------------------------- |
-| `resources`             | Contains the resources required for the repository.                   |
-| `README.md`             | The readme file you are currently reading ;).                         |
-| `connect_four.py`       | Python script for a 2 players Connect Four Game.                      |
-| `currency_converter.py` | Python script for currency conversion using an API.                   |
-| `egg_cooking_timer.py`  | Python script for a simple egg cooking timer.                         |
-| `mental_arithmetic.py`  | Python script for a mental arithmetic quiz game.                      |
-| `mystery_number.py`     | Python script for a number guessing game.                             |
-| `simon.py`              | Python script for a digital version of the Simon game, using numbers. |
+| FILE                          | DESCRIPTION                                                           |
+| :---------------------------: | --------------------------------------------------------------------- |
+| `resources`                   | Contains the resources required for the repository.                   |
+| `README.md`                   | The readme file you are currently reading ;).                         |
+| `connect_four.py`             | Python script for a 2 players Connect Four Game.                      |
+| `currency_converter.py`       | Python script for currency conversion using an API.                   |
+| `egg_cooking_timer.py`        | Python script for a simple egg cooking timer.                         |
+| `mental_arithmetic.py`        | Python script for a mental arithmetic quiz game.                      |
+| `mystery_number.py`           | Python script for a number guessing game.                             |
+| `simon.py`                    | Python script for a digital version of the Simon game, using numbers. |
+| `youtube_video_downloader.py` | Python script to download a YouTube video from its url.               |
 
 ## 💻 <span id="installation">Installation</span>
 
@@ -62,14 +63,15 @@ git clone https://github.com/fchavonet/web-simple_reminder.git
 
 3. To test a program, run one of these commands:
 
-| SCREENSHOT                                                                       | COMMAND                   |
-| :------------------------------------------------------------------------------: | :-----------------------: |
-| <img height="100px" src="./resources/images/screenshots/connect_four.jpg">       | `./connect_four.py`       |
-| <img height="100px" src="./resources/images/screenshots/currency_converter.jpg"> | `./currency_converter.py` |  
-| <img height="100px" src="./resources/images/screenshots/egg_cooking_timer.jpg">  | `./egg_cooking_timer.py`  |  
-| <img height="100px" src="./resources/images/screenshots/mental_arithmetic.jpg">  | `./mental_arithmetic.py`  |  
-| <img height="100px" src="./resources/images/screenshots/mystery_number.jpg">     | `./mystery_number.py`     |    
-| <img height="100px" src="./resources/images/screenshots/simon.jpg">              | `./simon.py`              |  
+| SCREENSHOT                                                                             | COMMAND                         |
+| :------------------------------------------------------------------------------------: | :-----------------------------: |
+| <img height="100px" src="./resources/images/screenshots/connect_four.jpg">             | `./connect_four.py`             |
+| <img height="100px" src="./resources/images/screenshots/currency_converter.jpg">       | `./currency_converter.py`       |  
+| <img height="100px" src="./resources/images/screenshots/egg_cooking_timer.jpg">        | `./egg_cooking_timer.py`        |  
+| <img height="100px" src="./resources/images/screenshots/mental_arithmetic.jpg">        | `./mental_arithmetic.py`        |  
+| <img height="100px" src="./resources/images/screenshots/mystery_number.jpg">           | `./mystery_number.py`           |    
+| <img height="100px" src="./resources/images/screenshots/simon.jpg">                    | `./simon.py`                    |
+| <img width="250px" src="./resources/images/screenshots/youtube_video_downloader.jpg"> | `./youtube_video_downloader.py` |
 
 ## 🔧 <span id="whats-next">What's next ?</span>
 
