@@ -48,7 +48,7 @@ Even though these exercises may seem relatively simple, I always strive to appro
 | `egg_cooking_timer.py`        | Python script for a simple egg cooking timer.                         |
 | `mental_arithmetic.py`        | Python script for a mental arithmetic quiz game.                      |
 | `mystery_number.py`           | Python script for a number guessing game.                             |
-| `password_genertor.py`        | Python script for a secure password generator.                        |
+| `password_generator.py`       | Python script for a secure password generator.                        |
 | `simon.py`                    | Python script for a digital version of the Simon game, using numbers. |
 | `youtube_video_downloader.py` | Python script to download a YouTube video from its url.               |
 
@@ -92,7 +92,7 @@ git clone https://github.com/fchavonet/web-simple_reminder.git
 ```
 
 ```
-./password_genertor.py
+./password_generator.py
 ```
 
 ```
