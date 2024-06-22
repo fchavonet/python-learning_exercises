@@ -43,12 +43,14 @@ Even though these exercises may seem relatively simple, I always strive to appro
 | :---------------------------: | :-------------------------------------------------------------------: |
 | `resources`                   | Contains the resources required for the repository.                   |
 | `README.md`                   | The readme file you are currently reading ;).                         |
+| `brickset_finder.py`          | Python script to search for a LEGO® set using the Brickset API.       |
 | `connect_four.py`             | Python script for a 2 players Connect Four Game.                      |
 | `currency_converter.py`       | Python script for currency conversion using an API.                   |
 | `egg_cooking_timer.py`        | Python script for a simple egg cooking timer.                         |
 | `mental_arithmetic.py`        | Python script for a mental arithmetic quiz game.                      |
 | `mystery_number.py`           | Python script for a number guessing game.                             |
 | `password_generator.py`       | Python script for a secure password generator.                        |
+| `requirements.txt`            | List of Python dependencies for the project.                          |
 | `simon.py`                    | Python script for a digital version of the Simon game, using numbers. |
 | `youtube_video_downloader.py` | Python script to download a YouTube video from its url.               |
 
@@ -60,17 +62,25 @@ Even though these exercises may seem relatively simple, I always strive to appro
     - Open your preferred Terminal.
     - Navigate to the directory where you want to clone the repository.
     - Run the following command:
+
 ```
 git clone https://github.com/fchavonet/web-simple_reminder.git
 ```
 
-2. Python dependencies required:
-    - pytube (<a target="_blank" href="https://pytube.io/en/latest/user/install.html">documentation</a>).
-    - requests (<a target="_blank" href="https://pypi.org/project/requests/">documentation</a>)
+2. Open the repository you've just cloned.
 
-3. Open the repository you've just cloned.
+3. Install the required packages:
+    - Ensure you have `pip` installed, then run:
+
+```
+pip install -r requirements.txt
+```
 
 4. To test a program, run one of these commands:
+
+```
+./brickset_finder.py
+```
 
 ```
 ./connect_four.py
@@ -83,6 +93,7 @@ git clone https://github.com/fchavonet/web-simple_reminder.git
 ```
 ./egg_cooking_timer.py
 ```
+
 ```
 ./mental_arithmetic.py
 ```
@@ -102,6 +113,17 @@ git clone https://github.com/fchavonet/web-simple_reminder.git
 ```
 ./youtube_video_downloader.py
 ```
+<br>
+
+To use the `brickset_finder.py` script, you need to create a `config.json` file at the root of the project directory with the following content:
+
+```
+{
+    "api_key": "<api key number>"
+}
+```
+
+You can request an API key from this page: [Brickset API key request](https://brickset.com/tools/webservices/requestkey).
 
 ## 🔧 <span id="whats-next">What's next ?</span>
 
